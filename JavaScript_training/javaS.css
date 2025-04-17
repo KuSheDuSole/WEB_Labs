@@ -1,0 +1,360 @@
+body{
+    background-color: #3951cb;
+}
+.buttons-block{
+    align-items: center;
+}
+.buttons-panel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.accordion{
+    font-family: 'Oswald', sans-serif;
+    font-size: 42px;
+    background-color: #399BCB;
+    color: azure;
+    width: 50%;
+    cursor: pointer;
+    padding: 16px;
+    text-align: left;
+    transition: 0.5s;
+}
+.active, .accordion :hover{
+    background-color: #6a39cb;
+}
+.accordion:after{
+    content: '\002B';
+    color: azure;
+    font-size: 42px;
+    font-weight: bold;
+    float: right;
+}
+.active:after {
+    content: "\2212";
+}
+.panel{
+    padding: 0 20px;
+    font-size: 42px;
+    color: azure;
+    background-color: #afbcff;
+    width: 47%;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+.date-panel{
+    width: 49%;
+    height: 200px;
+}
+.date-date{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+.date-time{
+    font-family: 'Oswald', sans-serif;
+}
+.data-task{
+    font-size: 25px;
+}
+.calendar-panel{
+    height: 700px;
+}
+.calendar-cal{
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    width: 100%;
+}
+.calendar-cal table {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #83b4ff;
+  }
+.calendar-cal table th{
+    border: 4px solid black;
+    padding: 12px;
+    text-align: center;
+}
+.calendar-cal table td{
+    border: 4px solid black;
+    padding: 12px;
+    text-align: center;
+}
+.cal-btn-l, .cal-btn-r{
+    background: none !important;
+    color: azure;
+    font-size: 32px;
+    width: 100%;
+}
+.DOM-panel{
+    width: 49%;
+    height: 700px;
+}
+.DOM-panel p{
+    font-size: 20px;
+    margin: 0;
+}
+.DOM-Finder{
+    font-size: 25px;
+}
+.change-object-panel{
+    width: 49%;
+    height: 400px;
+}
+.change-object-panel-btn{
+    cursor: pointer;
+}
+.btn-line{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.btn-restart{
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+}
+@keyframes Btn-Fade{
+    0%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(0.5);
+        opacity: 0;
+    }
+}
+@keyframes Btn-Fade-reset{
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    0%{
+        transform: scale(0.5);
+        opacity: 0;
+    }
+}
+.creating-panel{
+    width: 100%;
+    height: 150px;
+    font-size: 25px;
+}
+.btn-creating-line{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.btn-creating-line button{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    background-color:#accdff;
+}
+.event-panel{
+    width: 100%;
+    height: 300px;
+}
+.event-table-panel{
+    width: 100%;
+    height: 100%;
+}
+.event-table-panel table{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+}
+.event-table-panel table td{
+    border: 4px solid black;
+    padding: 12px;
+    text-align: center;
+}
+.bu-img{
+    background-image: url(Pic/smileBubuz.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.sugar-panel{
+    width: 100%;
+    height: 300px;
+    font-family: 'Oswald', sans-serif;
+}
+.sugar-panel h4{
+    margin: 0 0;
+}
+.h4-sug::before{
+    content: '\1F449';
+}
+.sug-h4-active::before{
+    content: "\1F447";
+}
+.sug-bl{
+    display: none;
+    width: 80%;
+    height: 200px;
+    background-color: rgb(96, 126, 160);
+    margin-left: 80px;
+}
+.sug-bl ul{
+    margin: 0 0;
+    margin-left: 20px;
+    text-shadow:  -1px -1px 0 #000,  
+    1px -1px 0 #000,
+   -1px  1px 0 #000,
+    1px  1px 0 #000; ;
+}
+.sug-bl ul li{
+    cursor: help;
+}
+.sug-end{
+    display: none;
+    font-size: 35px;
+    text-shadow:  -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px  1px 0 #000,
+    1px  1px 0 #000; ;
+    margin: 0;
+}
+.sweets{
+    transition: opacity 0.5s ease-out;
+}
+.opacity-panel{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.bubuzan-opacity{
+    position: absolute;
+    z-index: 2;
+    transition: opacity 5s ease;
+}
+.opacity-panel p{
+    position: absolute;
+    bottom: 160px;
+    left: 80px;
+    z-index: 1;
+    text-shadow:  -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px  1px 0 #000,
+    1px  1px 0 #000; ;
+    margin: 0;
+}
+.form-panel{
+    width: 100%;
+    height: 1200px;
+    font-size: 21px;
+}
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #3f0793;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-container h2{
+    text-align: center;
+}
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.required::after {
+    content: " *";
+    color: red;
+}
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    display: none;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    font-size: 16px;
+}
+input:focus,
+select:focus,
+textarea:focus {
+    box-shadow: 0 0 15px rgba(76, 175, 80, 0.5);
+    outline: none;
+    border-color: #4CAF50;
+}
+input:focus{
+    background-color: #c4ffc6;
+}
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+.radio-group, .checkbox-group {
+    margin: 10px 0;
+    background-color: #6d20e0;
+    border-radius: 5px;
+}
+.radio-option, .checkbox-option {
+    margin-right: 15px;
+}
+.registrationForm button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin: 20px auto 0;
+}
+
+.form-group button:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    display: none;
+}
+.success-message {
+    color: #4CAF50;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    display: none;
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+.label-box{
+    width: 27%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    padding-right: 5px;
+}
+.phone-hint {
+    font-size: 12px;
+    color: #ffffff;
+    margin-top: 5px;
+    justify-content: center;
+}
+.go-left{
+    margin-left: auto;
+}
