@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\KuSheDuSole\\source\\repos\\AJAX_Lab\\AJAX_Lab\\wwwroot\\JavaScript.js",
+      "PackagePath": "staticwebassets\\JavaScript.js"
+    },
+    {
+      "Id": "C:\\Users\\KuSheDuSole\\source\\repos\\AJAX_Lab\\AJAX_Lab\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\KuSheDuSole\\source\\repos\\AJAX_Lab\\AJAX_Lab\\wwwroot\\styles.css",
+      "PackagePath": "staticwebassets\\styles.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AJAX_Lab.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AJAX_Lab.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.AJAX_Lab.props",
+      "PackagePath": "build\\AJAX_Lab.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AJAX_Lab.props",
+      "PackagePath": "buildMultiTargeting\\AJAX_Lab.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.AJAX_Lab.props",
+      "PackagePath": "buildTransitive\\AJAX_Lab.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,331 @@
+{
+  "Version": 1,
+  "Hash": "dQhF2MnQpp/mdDNQIIA152Is2nZQ3QL7nllw2XpBa18=",
+  "Source": "AJAX_Lab",
+  "BasePath": "_content/AJAX_Lab",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AJAX_Lab\\wwwroot",
+      "Source": "AJAX_Lab",
+      "ContentRoot": "C:\\Users\\KuSheDuSole\\source\\repos\\AJAX_Lab\\AJAX_Lab\\wwwroot\\",
+      "BasePath": "_content/AJAX_Lab",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\KuSheDuSole\\source\\repos\\AJAX_Lab\\AJAX_Lab\\wwwroot\\index.html",
+      "SourceId": "AJAX_Lab",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\KuSheDuSole\\source\\repos\\AJAX_Lab\\AJAX_Lab\\wwwroot\\",
+      "BasePath": "_content/AJAX_Lab",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gdmsax1x4g",
+      "Integrity": "vOHCi4MNARb4m4mBF45wF/RNwtqxocqseP1jC+y9k2E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\KuSheDuSole\\source\\repos\\AJAX_Lab\\AJAX_Lab\\wwwroot\\JavaScript.js",
+      "SourceId": "AJAX_Lab",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\KuSheDuSole\\source\\repos\\AJAX_Lab\\AJAX_Lab\\wwwroot\\",
+      "BasePath": "_content/AJAX_Lab",
+      "RelativePath": "JavaScript#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "604x0i8wkw",
+      "Integrity": "hpr7Z/d9d5hNw48FAM7WKpQryyRDu06jI4ZnFFZAX44=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\JavaScript.js"
+    },
+    {
+      "Identity": "C:\\Users\\KuSheDuSole\\source\\repos\\AJAX_Lab\\AJAX_Lab\\wwwroot\\styles.css",
+      "SourceId": "AJAX_Lab",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\KuSheDuSole\\source\\repos\\AJAX_Lab\\AJAX_Lab\\wwwroot\\",
+      "BasePath": "_content/AJAX_Lab",
+      "RelativePath": "styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lvxkvj6p4d",
+      "Integrity": "gTMq6mKIFKcOJ16vkyFhKxbvQ5dzsQatFoLsd5hUubc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\styles.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.gdmsax1x4g.html",
+      "AssetFile": "C:\\Users\\KuSheDuSole\\source\\repos\\AJAX_Lab\\AJAX_Lab\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "431"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vOHCi4MNARb4m4mBF45wF/RNwtqxocqseP1jC+y9k2E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 14:33:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gdmsax1x4g"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vOHCi4MNARb4m4mBF45wF/RNwtqxocqseP1jC+y9k2E="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\KuSheDuSole\\source\\repos\\AJAX_Lab\\AJAX_Lab\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "431"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vOHCi4MNARb4m4mBF45wF/RNwtqxocqseP1jC+y9k2E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 14:33:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vOHCi4MNARb4m4mBF45wF/RNwtqxocqseP1jC+y9k2E="
+        }
+      ]
+    },
+    {
+      "Route": "JavaScript.604x0i8wkw.js",
+      "AssetFile": "C:\\Users\\KuSheDuSole\\source\\repos\\AJAX_Lab\\AJAX_Lab\\wwwroot\\JavaScript.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2207"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hpr7Z/d9d5hNw48FAM7WKpQryyRDu06jI4ZnFFZAX44=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 14:33:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "604x0i8wkw"
+        },
+        {
+          "Name": "label",
+          "Value": "JavaScript.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hpr7Z/d9d5hNw48FAM7WKpQryyRDu06jI4ZnFFZAX44="
+        }
+      ]
+    },
+    {
+      "Route": "JavaScript.js",
+      "AssetFile": "C:\\Users\\KuSheDuSole\\source\\repos\\AJAX_Lab\\AJAX_Lab\\wwwroot\\JavaScript.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2207"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hpr7Z/d9d5hNw48FAM7WKpQryyRDu06jI4ZnFFZAX44=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 14:33:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hpr7Z/d9d5hNw48FAM7WKpQryyRDu06jI4ZnFFZAX44="
+        }
+      ]
+    },
+    {
+      "Route": "styles.css",
+      "AssetFile": "C:\\Users\\KuSheDuSole\\source\\repos\\AJAX_Lab\\AJAX_Lab\\wwwroot\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3478"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gTMq6mKIFKcOJ16vkyFhKxbvQ5dzsQatFoLsd5hUubc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 13:47:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gTMq6mKIFKcOJ16vkyFhKxbvQ5dzsQatFoLsd5hUubc="
+        }
+      ]
+    },
+    {
+      "Route": "styles.lvxkvj6p4d.css",
+      "AssetFile": "C:\\Users\\KuSheDuSole\\source\\repos\\AJAX_Lab\\AJAX_Lab\\wwwroot\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3478"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gTMq6mKIFKcOJ16vkyFhKxbvQ5dzsQatFoLsd5hUubc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 13:47:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lvxkvj6p4d"
+        },
+        {
+          "Name": "label",
+          "Value": "styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gTMq6mKIFKcOJ16vkyFhKxbvQ5dzsQatFoLsd5hUubc="
+        }
+      ]
+    }
+  ]
+}
